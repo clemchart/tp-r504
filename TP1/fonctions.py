@@ -5,4 +5,4 @@ def puissance(a, b):
         raise TypeError("Only integers are allowed")
     if a == 0 and b < 0:
         raise Exception("0 to a negative power is undefined")
-    return a**b
+    return a**bS
